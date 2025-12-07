@@ -22,8 +22,8 @@ namespace TodoSynchronizer.Core.Models.CanvasModels
         [JsonProperty("message")]
         public string Message { get; set; }
 
-        [JsonProperty("role_ids")]
-        public long[] RoleIds { get; set; }
+        //[JsonProperty("role_ids")]
+        //public long[] RoleIds { get; set; }
 
         [JsonProperty("roles")]
         public string[] Roles { get; set; }
